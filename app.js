@@ -18,6 +18,7 @@ button.forEach((btn) => {
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
+
   if (count > 0) {
     container.innerHTML = `
     <div class="container card">

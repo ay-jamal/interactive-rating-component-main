@@ -74,6 +74,7 @@ body {
 .container .rating button.active {
   background-color: hsl(216deg, 12%, 54%);
   color: hsl(0deg, 0%, 100%);
+  border: none;
 }
 .container .rating button:hover {
   background-color: hsl(25deg, 97%, 53%);

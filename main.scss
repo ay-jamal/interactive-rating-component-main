@@ -61,6 +61,7 @@ body {
       &.active {
         background-color: $mid-gray;
         color: $white-color;
+        border: none;
       }
       &:hover {
         background-color: $primary-color;

@@ -21,7 +21,7 @@ submitBtn.addEventListener("click", (e) => {
   if (count > 0) {
     container.innerHTML = `
     <div class="container card">
-    <img src="/images/illustration-thank-you.svg" alt="" />
+    <img src="images/illustration-thank-you.svg" alt="" />
     <span>You Selected ${count} out of 5</span>
 
     <div class="text">

@@ -10,8 +10,8 @@ let count = 0;
 
 button.forEach((btn) => {
   btn.addEventListener("click", () => {
-    count++;
     btn.classList.toggle("active");
+    count = document.getElementsByClassName("active").length;
     console.log(count);
   });
 });
@@ -19,8 +19,7 @@ button.forEach((btn) => {
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
-  if (count > 0) {
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="container card">
     <img src="images/illustration-thank-you.svg" alt="" />
     <span>You Selected ${count} out of 5</span>
@@ -35,5 +34,4 @@ submitBtn.addEventListener("click", (e) => {
     
   
     `;
-  }
 });
